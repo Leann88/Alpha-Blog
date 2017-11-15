@@ -1,3 +1,69 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+#logo:hover {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+#home {
+  text-align: center;
+  background-image:  asset-url('witcher.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  h1 {
+   font-weight: 700;
+   font-size: 5em;
+   color: white;
+  }
+
+  hr {
+   width: 400px;
+   border-top: 1px solid #f8f8f8;
+   border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
